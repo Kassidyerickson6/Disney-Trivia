@@ -1,0 +1,18 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+body {
+	background-image: url("../images/Disneyland.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: 'Indie Flower', cursive;
+	font-family: 'Saira Extra Condensed', sans-serif;
+	font-family: 'Vollkorn SC', serif;
+}
+
+.instructions {
+	background: pink;
+}
+
+.questions {
+	background:pink;
+}
