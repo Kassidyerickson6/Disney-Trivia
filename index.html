@@ -40,6 +40,7 @@
 
 
 	<div class="container">
+		<div id= GameContainer>
 
 		<div class="row">
 
@@ -55,12 +56,14 @@
 					<h2> Instructions:</h2>
 
 					<h4> You will be given 90 seconds to answer the following 5 questions</h4>
-				
+			
+
 					<!-- this creats the id for the start button -->
 					<button type="button" id="startButton">Start</button>
 
 					<!-- this is where the timer will be shown -->
 					<div id="show-number"></div>
+
 				</center>
 
 						<br>
@@ -89,71 +92,100 @@
 					<center>
 
 
-					<p class="question">1. What is the name of the dog in Cinderella?</p>
-					<ul class="answers">
-					<input type="radio" name="q1" value="a" id="q1a"><label for="q1a">Oliver</label><br/>
-					<input type="radio" name="q1" value="b" id="q1b"><label for="q1b">Lucifer</label><br/>
-					<input type="radio" name="q1" value="c" id="q1c"><label for="q1c">Bruno</label><br/>
-					<input type="radio" name="q1" value="d" id="q1d"><label for="q1d">Gus Gus</label><br/>
-					</ul>
+					<h3>1. What is the name of the dog in Cinderella?</h3>
+					<input type="radio" name="q1" value="Oliver">Oliver
+					<br>
+					<input type="radio" name="q1" value="Lucifer">Lucifer
+					<br>
+					<input type="radio" name="q1" value="Bruno">Bruno
+					<br>
+					<input type="radio" name="q1" value="Gus Gus">Gus Gus
+					<br>
+					<br>
 
-					<p class="question">2. What is the name of the evil boy who lives next to Andy in Toy Story?</p>
-					<ul class="answers">
-					<input type="radio" name="q2" value="a" id="q2a"><label for="q2a">Sid</label><br/>
-					<input type="radio" name="q2" value="b" id="q2b"><label for="q2b">Stan</label><br/>
-					<input type="radio" name="q2" value="c" id="q2c"><label for="q2c">John</label><br/>
-					<input type="radio" name="q2" value="d" id="q2d"><label for="q2d">Peter</label><br/>
-					</ul>
-
-
-					<p class="question">3. In Peter Pan, who does Wendy read stories to?</p>
-					<ul class="answers">
-					<input type="radio" name="q3" value="a" id="q3a"><label for="q3a">Peter Pan</label><br/>
-					<input type="radio" name="q3" value="b" id="q3b"><label for="q3b">her brothers</label><br/>
-					<input type="radio" name="q3" value="c" id="q3c"><label for="q3c">the pirates</label><br/>
-					<input type="radio" name="q3" value="d" id="q3d"><label for="q3d">The Lost Boys</label><br/>
-					</ul>
+					<h3>2. What is the name of the evil boy who lives next to Andy in Toy Story?</h3>
+					<input type="radio" name="q2" value="Sid">Sid
+					<br>
+					<input type="radio" name="q2" value="Stan">Stan
+					<br>
+					<input type="radio" name="q2" value="John">John
+					<br>
+					<input type="radio" name="q2" value="Peter">Peter
+					<br>
+					<br>
 
 
-					<p class="question">4. What is the name of the dragon in Mulan?</p>
-					<ul class="answers">
-					<input type="radio" name="q4" value="a" id="q4a"><label for="q4a">Toothless</label><br/>
-					<input type="radio" name="q4" value="b" id="q4b"><label for="q4b">Mushu</label><br/>
-					<input type="radio" name="q4" value="c" id="q4c"><label for="q4c">Spiro</label><br/>
-					<input type="radio" name="q4" value="d" id="q4d"><label for="q4d">Ping</label><br/>
-					</ul>
+
+					<h3>3. In Peter Pan, who does Wendy read stories to?</h3>
+	
+					<input type="radio" name="q3" value="peter pan">Peter Pan
+					<br>
+					<input type="radio" name="q3" value="her brothers">her brothers
+					<br>
+					<input type="radio" name="q3" value="the pirates">the pirates
+					<br>
+					<input type="radio" name="q3" value="the lost boys">The Lost Boys
+					<br>
+					<br>
 
 
-					<p class="question">5. What color is Mike from Monsters Ink?</p>
-					<ul class="answers">
-					<input type="radio" name="q5" value="a" id="q5a"><label for="q5a">Green</label><br/>
-					<input type="radio" name="q5" value="b" id="q5b"><label for="q5b">Blue</label><br/>
-					<input type="radio" name="q5" value="c" id="q5c"><label for="q5c">Red</label><br/>
-					<input type="radio" name="q5" value="d" id="q5d"><label for="q5d"> Purple </label><br/>
-					</ul>
 
-								<!-- Hidden Buttons and Elements -->
-					<!-- Submit Button -->
+					<h3>4. What is the name of the dragon in Mulan?</h3>
+
+					<input type="radio" name="q4" value="toothless">Toothless
+					<br>
+					<input type="radio" name="q4" value="mushu">Mushu
+					<br>
+					<input type="radio" name="q4" value="spiro">Spiro
+					<br>
+					<input type="radio" name="q4" value="ping">Ping
+					<br>
+					<br>
+
+
+
+					<h3>5. What color is Mike from Monsters Ink?</h3>
+
+					<input type="radio" name="q5" value="green">Green
+					<br>
+					<input type="radio" name="q5" value="blue">Blue
+					<br>
+					<input type="radio" name="q5" value="red">Red
+					<br>
+					<input type="radio" name="q5" value="purple"> Purple 
+					<br>
+					<br>
+
+
 					<button type="button" id="submit">Submit</button>
-					<!-- Results -->
-					<div id="results">
-
-						<br>
-
-					<button type="button" id="restart">Play Again</button>
-				
-						<br>
-						<br>
-
-					&copy; Copyright 2017 Kassidy Erickson
-
 
 					</center>
+
 				</div>
 			</div>
 		</div>
 
 			<div class="col-md-3"></div>
+				</div>
+			</div>
+		</div>
+		</div>	
+		</div>	
+					<!-- Submit Button -->
+
+
+		<div id = lastContainer>
+
+
+					<h4>Correct Answers: <span id = "correct_answers">0</span></h4>
+					<h4>Incorrect Answers: <span id = wrong_answers>0</span></h4>
+					<h4>Unanswered: <span id = "unanswered">0</span></h4>
+
+					<button type="button" id="restart">Play Again</button>
+		</div>
+
+
+
 	</div>
 
 
